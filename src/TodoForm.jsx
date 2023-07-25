@@ -21,7 +21,7 @@ export default function TodoForm({ addTodo }) {
           <form onSubmit={handleSubmit}>
             <TextField 
                 id="outlined-basic" 
-                label="Outlined" 
+                label="What u doin'?" 
                 variant="outlined"
                 onChange={handleChange} 
                 value={text}
@@ -39,3 +39,4 @@ export default function TodoForm({ addTodo }) {
         </ListItem>
     )
 }
+

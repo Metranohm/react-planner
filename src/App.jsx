@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { CssBaseline } from '@mui/material'
 import './App.css'
 import TodoList from './TodoList'
+import Navbar from './NavBar'
 
 function App() {
   
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <CssBaseline />
-      <h1>Todos</h1>
+      <Navbar />
       <TodoList />
     </>
   )
